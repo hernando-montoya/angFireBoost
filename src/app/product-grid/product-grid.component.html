@@ -1,0 +1,7 @@
+<h1 class="page-header">Product Grid</h1>
+
+<ag-grid-angular #agGrid class="ag-theme-balham d-none d-sm-block" [rowData]="objectCol" [columnDefs]="columnDefs"
+    rowSelection="single">
+</ag-grid-angular>
+
+<button class="btn btn-primary btn-raised text-white float-right mt-3" (click)="editSelectedRow()">Select</button>
