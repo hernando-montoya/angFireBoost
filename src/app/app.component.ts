@@ -15,11 +15,7 @@ export class AppComponent {
 
     let mainMenu = [
       { id: 'productNew', title: 'New product', path: '/product/new', isActive: true },
-      { id: 'productGrid', title: 'Product grid', path: '/product-grid' },
-      { id: 'customerNew', title: 'New customer', path: '/customer/new' },
-      { id: 'customerGrid', title: 'Customer grid', path: '/customer-grid' },
-      { id: 'controlsDemoNew', title: 'New controls demo', path: '/controls-demo/new' },
-      { id: 'controlsDemoGrid', title: 'Controls demo grid', path: '/controls-demo-grid' }
+      { id: 'productGrid', title: 'Product grid', path: '/product-grid' }
     ]
 
     this.sessionSvc.setMenu('main', mainMenu)
